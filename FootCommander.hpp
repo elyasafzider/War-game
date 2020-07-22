@@ -7,9 +7,8 @@
 
 namespace WarGame
 {
-    class FootCommander : public FootSoldier
+    class FootCommander : public FootSoldier//יורש
     {
-    private:
     public:
         FootCommander(uint _player) : FootSoldier(_player)
         {
